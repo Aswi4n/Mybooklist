@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Booksy</title>
+    <link rel="stylesheet" href="ashy.css">
+    <link rel="icon" href="">
+
+</head>
+
+<body>
+    <div class="one">
+        <h1 class="one">MyBookList</h1>
+    </div>
+
+    <div class="bookcontainer">
+        <div class="three">
+            <h2>Welcome!</h2>
+            <h3></h3>
+            <P>An place to add and save book titles, author names, and brief descriptions for easy personal reference
+                and organization.</P>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popuplay"></div>
+    <div class="popup">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Name" id="bookip">
+            <input type="text" placeholder="Author Name" id="authorip">
+            <textarea placeholder="Discription" id="disip"></textarea>
+            <button id="addbt">Add</button>
+            <button id="cancelbt">Cancel</button>
+        </form>
+    </div>
+    <button class="add" id="addpop">+</button>
+    <script src="demo.js"></script>
+</body>
